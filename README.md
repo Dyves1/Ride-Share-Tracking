@@ -1,6 +1,6 @@
 # REAL TIME LIVE SHARE TRACKING
 
-Welcome to the [Real Time Live Share Tracking (RTLST)](), a comprehensive website designed to live show the passenger real time distance between two points. If a passenger/driver is moving from one place to another, we will show others where the passenger is heading, time remaining, and bus stops left to get to the destination.
+Welcome to the [Real Time Live Share Tracking (RTLST)](https://ride-share-tracking.vercel.app/), a comprehensive website designed to live show the passenger real time distance between two points. If a passenger/driver is moving from one place to another, we will show others where the passenger is heading, time remaining, and bus stops left to get to the destination.
 
 ## Getting Started
 
@@ -17,7 +17,7 @@ To run this project locally, you'll need to have Node.js and npm installed on yo
    Clone the GitHub repository to your local machine using the following command:
 
    ```bash
-   git clone https://github.com/Dyves1/Real-time-Ride-Share-Tracking
+   git clone  https://github.com/Dyves1/Ride-Share-Tracking
    cd real-time-ride-share-tracking
    npm install
 
