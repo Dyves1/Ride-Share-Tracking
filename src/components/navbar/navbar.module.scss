@@ -1,0 +1,63 @@
+@import "../../styles/mixins.scss";
+@import "../../styles/variables.scss";
+
+.navbar {
+  :global {
+    width: 100vw;
+    background-color: transparent;
+    background-image: $bg;
+    color: $black;
+
+    a {
+      color: $dark;
+    }
+
+    .logo {
+      width: 30px;
+      aspect-ratio: 1/1;
+      height: auto;
+      
+    }
+
+    .links {
+      min-width: 400px;
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .link {
+      @include p;
+      color: $dark;
+      font-weight: 400 !important;
+      @include transition;
+
+      &:hover {
+        text-decoration: underline !important;
+      }
+    }
+
+    .activeLink {
+      font-weight: 900 !important;
+    }
+
+    //change color border for the humburger icon
+    .navbar-toggler {
+      color: $light;
+      border-color: transparent;
+    }
+
+    //change bars color for the humberger icon
+    .navbar-toggler-icon {
+      background-image: url("../../../public/icons/bars.svg");
+    }
+
+    .startUp {
+      font-weight: 900;
+      font-size: 1rem;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
